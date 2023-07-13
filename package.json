@@ -1,0 +1,32 @@
+{
+  "name": "htmltest-bin",
+  "version": "0.17.0",
+  "description": "Installer for htmltest",
+  "repository": "github:chalin/htmltest-bin",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "postinstall": "node postinstall",
+    "test": "bin/htmltest -v"
+  },
+  "keywords": [
+    "htmltest",
+    "bin",
+    "installer"
+  ],
+  "spelling": "cSpell:ignore chalin cncf htmltest ",
+  "author": {
+    "name": "Patrice Chalin",
+    "url": "https://github.com/chalin"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "prettier": {
+    "proseWrap": "always",
+    "singleQuote": true
+  }
+}
