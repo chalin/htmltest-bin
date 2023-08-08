@@ -8,6 +8,9 @@
     "postinstall": "node postinstall",
     "test": "bin/htmltest -v"
   },
+  "bin": {
+    "htmltest": "./bin/htmltest"
+  },
   "keywords": [
     "htmltest",
     "bin",
